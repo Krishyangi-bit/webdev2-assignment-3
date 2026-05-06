@@ -1,16 +1,64 @@
-# React + Vite
+# Student Performance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite dashboard for managing and tracking student performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new students
+- Update student scores
+- Search students instantly
+- Filter pass/fail students
+- Responsive modern UI
+- Performance statistics cards
+- Dynamic score management
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS3
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/Krishyangi-bit/webdev2-assignment-3.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd webdev2-assignment-3
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```bash
+src/
+ ├── components/
+ ├── App.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+## Future Improvements
+
+- Dark mode toggle
+- Backend integration
+- Student authentication
+- Charts & analytics
+- Database support
